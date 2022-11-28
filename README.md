@@ -21,20 +21,18 @@ direction (if the current direction is right, turn to left; if the current direc
 right). In each move, its position changes by one unit in the current direction.
 <br>
 <br>
-Provide a constructor
+Provide a constructor:
 <br>
 <br>
 Bug(int initial_position)
 <br>
 <br>
-and member functions
+and member functions:
 <br>
 <br>
 void turn()
 <br>
-<br>
 void move()
-<br>
 <br>
 int get_position() const
 <br>
